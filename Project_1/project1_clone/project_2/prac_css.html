@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+    <style>
+        .btn{
+            background-color: red;
+            color: white;
+            height: 50px;
+            width: 70px;
+            position: relative;
+            
+
+            transition: all 1s cubic-bezier(0.280, -0.315, 0.685, 1.390);
+        }
+        .btn:hover{
+            transform: scaleX(1.2);
+           
+
+        }
+        h2{
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+        }
+        h2:hover{
+            transition: 4s all steps(3,end);
+            transform: translateX(400px);
+        }
+        
+    </style>
+</head>
+<body>
+    
+        
+        <div>
+        <button class="btn">click me</button>
+        </div>  
+        
+        <div>
+        <h2>Hello</h2>
+        </div>
+        
+   
+</body>
+</html>
